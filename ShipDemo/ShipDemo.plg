@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ShipDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ShipDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\2012游戏开发与设计\Course2\ShipDemo\ShipDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\ChenYong\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ShipDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\2012游戏开发与设计\Course2\ShipDemo\ChildView.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\Explosion.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\MainFrm.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\MyObject.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\MyShip.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\Score.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\ShipDemo.cpp"
+"F:\2012游戏开发与设计\Course2\ShipDemo\Submarine.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ChenYong\LOCALS~1\Temp\RSP23.tmp" 
+Creating temporary file "C:\DOCUME~1\ChenYong\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ShipDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\2012游戏开发与设计\Course2\ShipDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ChenYong\LOCALS~1\Temp\RSP24.tmp" 
+Creating temporary file "C:\DOCUME~1\ChenYong\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ShipDemo.pdb" /machine:I386 /out:"Release/ShipDemo.exe" 
+".\Release\ChildView.obj"
+".\Release\Explosion.obj"
+".\Release\MainFrm.obj"
+".\Release\MyObject.obj"
+".\Release\MyShip.obj"
+".\Release\Score.obj"
+".\Release\ShipDemo.obj"
+".\Release\StdAfx.obj"
+".\Release\Submarine.obj"
+".\Release\ShipDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ChenYong\LOCALS~1\Temp\RSP25.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildView.cpp
+Explosion.cpp
+MainFrm.cpp
+MyObject.cpp
+MyShip.cpp
+Score.cpp
+ShipDemo.cpp
+Submarine.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ShipDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
